@@ -9,11 +9,13 @@ This repository contains a simple yet functional blockchain implementation writt
 - A fully functional blockchain created from scratch.
 - Mining mechanism using Proof of Work (PoW).
 - Flask-based REST API with two main endpoints:
-  - `/mine_block`: mines a new block.
-  - `/get_chain`: returns the full blockchain.
+  - `/mine_block`: mines a new block
+  - `/get_chain`: returns the full blockchain
+  - `/is_valid`: checks if the blockchain is valid
 
 
 ## Why this project?
 
-In recent years, my curiosity about cryptocurrencies and their market has grown significantly. To avoid relying my investments solely on technical analysis of price charts and to become more familiar with the underlying technologies, I decided to take a mini-course to deepen my knowledge of the technologies that power cryptocurrencies.
+In recent years, my curiosity about cryptocurrencies and their market has grown significantly. 
+To avoid relying my investments solely on technical analysis of price charts and to become more familiar with the underlying technologies, I decided to take a mini-course to deepen my knowledge of the technologies that power cryptocurrencies.
 
