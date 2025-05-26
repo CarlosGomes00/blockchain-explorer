@@ -2,17 +2,26 @@
 
 # Exploring the blockchain
 
-This repository contains a simple yet functional blockchain implementation written in Python. It serves as a practical sandbox to help me understand the inner workings of blockchain technology and smart contracts, which I'm learning with the help of some courses.
+This repository contains a simple yet functional blockchain implementation written in Python. It serves as a practical sandbox to help me understand the inner workings of blockchain technology, smart contracts and decentralized networks work under the hood.
 
 ## What's in the repository?
 
-- A fully functional blockchain created from scratch.
-- Mining mechanism using Proof of Work (PoW).
-- Flask-based REST API with two main endpoints:
-  - `/mine_block`: mines a new block
-  - `/get_chain`: returns the full blockchain
-  - `/is_valid`: checks if the blockchain is valid
+- A fully functional blockchain created from scratch
+- Mining mechanism using Proof of Work (PoW)
+- Flask-based REST API to interact with the blockchain
+- Transaction handling system
+- Node networking with consensus protocol (for syncing between nodes - The coin5001, coin5002 and coin5003 files represent different nodes)
 
+
+Available API endpoints:
+  - GET `/mine_block`: mines a new block
+  - GET `/get_chain`: returns the full blockchain
+  - GET `/is_valid`: checks if the blockchain is valid
+  - POST `/add_transaction`: Adds a new transaction
+  - POST `/connect_node`: Connects the different nodes
+  - GET `/replace_chain`: Updates outdated nodes
+
+It also has templates (relating to transactions and connections between nodes) in json format, available to be added to Postman
 
 ## Why this project?
 
