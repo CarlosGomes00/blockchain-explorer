@@ -12,7 +12,6 @@ This repository contains a simple yet functional blockchain implementation writt
 - Transaction handling system
 - Node networking with consensus protocol (for syncing between nodes - The coin5001, coin5002 and coin5003 files represent different nodes)
 
-
 Available API endpoints:
   - GET `/mine_block`: mines a new block
   - GET `/get_chain`: returns the full blockchain
@@ -21,7 +20,8 @@ Available API endpoints:
   - POST `/connect_node`: Connects the different nodes
   - GET `/replace_chain`: Updates outdated nodes
 
-It also has templates (relating to transactions and connections between nodes) in json format, available to be added to Postman
+- It also has templates (relating to transactions and connections between nodes) in json format, available to be added to Postman
+- A work-in-progress Solidity Smart Contract for an Initial Coin Offering (ICO). This contract aims to simulate a basic token sale mechanism on a blockchain-like environment.
 
 ## Why this project?
 
